@@ -22,7 +22,7 @@ function currentLine(line) {
         numline += (`${i + 1}. ${line[i]}, `)
           i++
         }
-        else {numline += (`${line.length}. ${line[line.length]}`)
+        else {numline += (`${line.length}. ${line[line.length - 1]}`)
           i++
         }
       }
