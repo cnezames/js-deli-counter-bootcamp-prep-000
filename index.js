@@ -18,7 +18,7 @@ function currentLine(line) {
   if (line.length > 0) {
     let i = 0
       while (i < line.length - 1) {
-        if (i < line.length - 2) {
+        if (i <= line.length - 2) {
         numline += (`${i + 1}. ${line[i]}, `)
           i++
         }
